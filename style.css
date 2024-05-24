@@ -17,6 +17,7 @@
     max-height : 540px;
     background : #fff;
     margin: 100px auto 20px;
+ 
     padding : 40px 30px 70px;
     border-radius : 10px;
 }
@@ -39,16 +40,19 @@
 .row{
     display:flex;
     align-items:center ;
+    
     justify-content: space-between;
     background : #edeef0;
     border-radius : 30px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
-input{
+ input{
     flex:1;
     border: none;
     outline:none ;
+    width: 15%;
+    height: 15%;
     background:transparent ;
     padding:10px;
     font-weight: 14px;
@@ -56,6 +60,7 @@ input{
 button{
     border: none;
     outline:none;
+
     padding:10px 30px;
     background : #1e612f;
     color:#fff;
@@ -63,11 +68,12 @@ button{
     cursor:pointer;
     border-radius: 40px;
 }
-ul li{
+ ul li{
     list-style:none;
     font-size:17px;
     padding: 12px 8px 12px 50px;
     user-select:none;
+    
     cursor:pointer;
     position: relative;
 }
